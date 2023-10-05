@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/carrosel.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <title>Feira de Ciências</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-flask"></i>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-flask"></i>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="active">HOME</a>
+                </li>
+                <li>
+                    <a href="#">TURMAS</a>
+                </li>
+                <li>
+                    <a href="#">EXPERIMENTOS</a>
+                </li>
+                <li>
+                    <a href="#">SOBRE</a>
+                </li>
+                <li>
+                    <a href="#">ESCOLA</a>
+                </li>
+            </ul>            
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>        
+    </header>
+    <!---------------JS Swiper------------------------>
+        <main>
+<section class="carrosel">    
+    <h2 class="carrosel__titulo">Conheça Mais</h2>
+    <div class="carrosel__container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/foto1.svg" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto2.svg" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto3.svg" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto4.svg" alt=""></div>       
+        ...
+        </div>
+            
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>     
+    </div>
+</section>
+<!--Cards-->
+<section class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+        <img src="img/Estrelinhas.svg" alt="">
+        <h3 class="descricao__titulo">Experimento 1</h3>
+        <h2 class="descricao__sala">Realização: Sala 1</h2>
+        <p class="descricao__texto">Esse será o experimento da sala 1. Neste experimento a sala 1 irá demonstrar a primeira lei de Newton</p>
+        </div>
+    <img class="descricao__imagem" alt="" src="img/foto1.svg">    
+    </div>
+    <div class="botao">
+        <button class="botao__saibaMais" type="button">Saiba Mais</button>
+    </div>
+</section>
+<!--Card2-->
+<section class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+        <img src="img/Estrelinhas.svg" alt="">
+        <h3 class="descricao__titulo">Experimento 2</h3>
+        <h2 class="descricao__sala">Realização: Sala 2</h2>
+        <p class="descricao__texto">Esse será o experimento da sala 2. Neste experimento a sala 1 irá demonstrar o princípio de Lavosuier</p>
+        </div>
+    <img class="descricao__imagem" alt="" src="img/foto2.svg">    
+    </div>
+    <div class="botao">
+        <button class="botao__saibaMais" type="button">Saiba Mais</button>
+    </div>
+</section>
+
+<!--Card 3-->
+<section class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+        <img src="img/Estrelinhas.svg" alt="">
+        <h3 class="descricao__titulo">Experimento 3</h3>
+        <h2 class="descricao__sala">Realização: Sala 3</h2>
+        <p class="descricao__texto">Esse será o experimento da sala 3. Neste experimento a sala 1 irá demonstrar o princípio de ação e reação</p>
+        </div>
+    <img class="descricao__imagem" alt="" src="img/foto3.svg">    
+    </div>
+    <div class="botao">
+        <button class="botao__saibaMais" type="button">Saiba Mais</button>
+    </div>
+</section>
+
+<!--Card 4-->
+<!--Card 3-->
+<section class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+        <img src="img/Estrelinhas.svg" alt="">
+        <h3 class="descricao__titulo">Experimento 4</h3>
+        <h2 class="descricao__sala">Realização: Sala 4</h2>
+        <p class="descricao__texto">Esse será o experimento da sala 4. Neste experimento a sala 4 irá mostrar misturas homogêneas e heterogêneas</p>
+        </div>
+    <img class="descricao__imagem" alt="" src="img/foto4.svg">    
+    </div>
+    <div class="botao">
+        <button class="botao__saibaMais" type="button">Saiba Mais</button>
+    </div>
+</section>
+
+</main>
+        <!----------------------------Script SwiperJS----------------------------------->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,                 
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
+        </script>
+</body>
+</html>
