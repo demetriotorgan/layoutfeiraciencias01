@@ -21,15 +21,17 @@ header{
     padding: 0 40px;
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 
 .logo i{
     font-size:30px
 }
 
-.logo{
-    width: 120px;
-    margin-top: 8px;
+.logo__titulo{
+    display: block;
+    text-align: center;
 }
 
 nav .logo{
@@ -37,7 +39,7 @@ nav .logo{
 }
 
 nav ul{
-    display: flex;
+    display: none;
 }
 
 nav ul li a {
@@ -68,10 +70,6 @@ nav ul li a.active{
     transition: 0.4s;
 }
 
-.hamburger:hover{
-    background: #f6f4ff;
-}
-
 .hamburger div{
     width: 30px;
     height: 2px;
@@ -79,10 +77,56 @@ nav ul li a.active{
     background: #212526;
 }
 
-@media only screen and (max-width: 1100px){
+.container{    
+    display: flex;
+    margin: 5% auto;    
+    width: 80%;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.container__descricao{    
+    text-align: center;
+}
+
+.container__foto img{
+    width: 30em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+    
+}
+
+.container__botao{
+    margin: 2em 2em;    
+    width: 80%;
+    background-color:#675cff;
+    color: #FFF;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.carrosel{
+    display: none;
+}
+
+.card{
+    display: none;
+}
+
+@media only screen and (max-width: 412px){
     header{
         width: 90%;
         padding: 0 20px;        
+    }
+
+    .logo__titulo{
+        display: block;
+        text-align: center;
     }
 
     nav {
@@ -101,8 +145,10 @@ nav ul li a.active{
         left: 0;
     }
 
+    .container{
+        display: none;
+    }
     
-
     nav .logo{
         display: block;
         height: 70px;
@@ -127,4 +173,15 @@ nav ul li a.active{
         display: block;
     }
 
+    .carrosel{
+        display: block;
+    }
+
+    .card{
+        display: block  ;
+    }
+
+    .azul{
+        color: #02428a;       
+    }
 }

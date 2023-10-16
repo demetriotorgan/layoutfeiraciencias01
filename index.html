@@ -6,8 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/carrosel.css">
     <link rel="stylesheet" href="styles/card.css">
@@ -16,28 +15,32 @@
 <body>
     <header>
         <div class="logo">
-            <i class="fa-solid fa-flask"></i>
+            <div class="azul"><i class="fa-solid fa-flask"></i></div>            
         </div>
         <input type="checkbox" id="nav_check" hidden>
+        <div class="logo__titulo">
+            <h2>Feira de Ciências</h2>
+            <h5 class="azul">Col. Ary João Dresch</h5>
+        </div>        
         <nav>
             <div class="logo">
                 <i class="fa-solid fa-flask"></i>
             </div>
             <ul>
                 <li>
-                    <a href="#" class="active">HOME</a>
+                    <a href="/index.html" class="active">HOME</a>
                 </li>
                 <li>
-                    <a href="#">TURMAS</a>
+                    <a href="/nav/turmas.html">TURMAS</a>
                 </li>
                 <li>
-                    <a href="#">EXPERIMENTOS</a>
+                    <a href="/nav/experimentos.html">EXPERIMENTOS</a>
                 </li>
                 <li>
-                    <a href="#">SOBRE</a>
+                    <a href="/nav/sobre.html">SOBRE</a>
                 </li>
                 <li>
-                    <a href="#">ESCOLA</a>
+                    <a href="/nav/escola.html">ESCOLA</a>
                 </li>
             </ul>            
         </nav>
@@ -47,10 +50,23 @@
             <div></div>
         </label>        
     </header>
+    
+<main>
+    <!---------------Desktop------------------------->
+    <div class="container">
+        <div class="container__descricao">
+            <h  1>Feira de Ciências</h>
+            <h3>Col. Estadual Ary João Dresch</h3>            
+            <h5>Bem vindos a feira de ciências do Col. Estadual Ary João Dresch de Nova Londrina-PR.</h5>
+            <button class="container__botao">Saiba mais</button>
+        </div>
+        <div class="container__foto">
+            <img src="img/colegioAryQuadraPNG.png" alt="">
+        </div>
+    </div>
     <!---------------JS Swiper------------------------>
-        <main>
 <section class="carrosel">    
-    <h2 class="carrosel__titulo">Conheça Mais</h2>
+    <h2 class="carrosel__titulo"><a href="/nav/sabiamais.html">Conheça Mais</a></h2>
     <div class="carrosel__container">
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -73,14 +89,14 @@
     </div>     
     </div>
 </section>
-<!--Cards-->
+<!-------------------------Cards--------------------------->
 <section class="card">
     <div class="card__descricao">
         <div class="descricao">
         <img src="img/Estrelinhas.svg" alt="">
-        <h3 class="descricao__titulo">Experimento 1</h3>
-        <h2 class="descricao__sala">Realização: Sala 1</h2>
-        <p class="descricao__texto">Esse será o experimento da sala 1. Neste experimento a sala 1 irá demonstrar a primeira lei de Newton</p>
+        <h3 class="descricao__titulo">Tudo sobre Escorpiões</h3>
+        <h2 class="descricao__sala">Realização: 7A e 7B</h2>
+        <p class="descricao__texto">O que você sabe sobre escorpiões? Neste tarabalho os alunos do 7A e 7B irão te contar tudo o que você precisa saber sobre o tema.</p>
         </div>
     <img class="descricao__imagem" alt="" src="img/foto1.svg">    
     </div>
@@ -93,8 +109,8 @@
     <div class="card__descricao">
         <div class="descricao">
         <img src="img/Estrelinhas.svg" alt="">
-        <h3 class="descricao__titulo">Experimento 2</h3>
-        <h2 class="descricao__sala">Realização: Sala 2</h2>
+        <h3 class="descricao__titulo">A importância dos chás</h3>
+        <h2 class="descricao__sala">Realização: 2A e 2B</h2>
         <p class="descricao__texto">Esse será o experimento da sala 2. Neste experimento a sala 1 irá demonstrar o princípio de Lavosuier</p>
         </div>
     <img class="descricao__imagem" alt="" src="img/foto2.svg">    
@@ -109,9 +125,9 @@
     <div class="card__descricao">
         <div class="descricao">
         <img src="img/Estrelinhas.svg" alt="">
-        <h3 class="descricao__titulo">Experimento 3</h3>
-        <h2 class="descricao__sala">Realização: Sala 3</h2>
-        <p class="descricao__texto">Esse será o experimento da sala 3. Neste experimento a sala 1 irá demonstrar o princípio de ação e reação</p>
+        <h3 class="descricao__titulo">O que é o DNA?</h3>
+        <h2 class="descricao__sala">Realização: 1C -FD</h2>
+        <p class="descricao__texto">Aprenda mais sobre o tema DNA e teste seus conhecimentos.</p>
         </div>
     <img class="descricao__imagem" alt="" src="img/foto3.svg">    
     </div>
@@ -126,9 +142,9 @@
     <div class="card__descricao">
         <div class="descricao">
         <img src="img/Estrelinhas.svg" alt="">
-        <h3 class="descricao__titulo">Experimento 4</h3>
-        <h2 class="descricao__sala">Realização: Sala 4</h2>
-        <p class="descricao__texto">Esse será o experimento da sala 4. Neste experimento a sala 4 irá mostrar misturas homogêneas e heterogêneas</p>
+        <h3 class="descricao__titulo">Recicláveis</h3>
+        <h2 class="descricao__sala">Realização: 2-FD</h2>
+        <p class="descricao__texto">Por que a reciclagem é tão importante? Aprenda mais sobre este importante conceito e sua prática no dia a dia.</p>
         </div>
     <img class="descricao__imagem" alt="" src="img/foto4.svg">    
     </div>
@@ -136,9 +152,9 @@
         <button class="botao__saibaMais" type="button">Saiba Mais</button>
     </div>
 </section>
-
 </main>
         <!----------------------------Script SwiperJS----------------------------------->
+        <script src="https://kit.fontawesome.com/460aab3018.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script>
         const swiper = new Swiper('.swiper', {

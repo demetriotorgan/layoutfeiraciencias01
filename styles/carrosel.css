@@ -1,5 +1,5 @@
 .carrosel__titulo{
- color: orange;   
+ color: #02428a;   
  background-color: #fefefe;
  text-align: center; 
  text-transform: uppercase;
@@ -7,6 +7,14 @@
  font-weight: 700;
  padding: 1em 1em;
  margin: 1em 0;
+ border: 1px solid #02428a;
+ border-radius: 100px;
+ 
+}
+
+.carrosel__titulo:active{
+    background-color:#675cff;
+    color: #FFF;
 }
 
 /*-------------Swiper------------------*/
