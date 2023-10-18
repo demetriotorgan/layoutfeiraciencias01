@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">    
+    <!--Styles-->
     <link rel="stylesheet" href="style.css">    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="styles/carrosel.css">
     <link rel="stylesheet" href="styles/card.css">
     <title>Feira de Ciências</title>
 </head>
@@ -58,37 +59,12 @@
             <h  1>Feira de Ciências</h>
             <h3>Col. Estadual Ary João Dresch</h3>            
             <h5>Bem vindos a feira de ciências do Col. Estadual Ary João Dresch de Nova Londrina-PR.</h5>
-            <button class="container__botao">Saiba mais</button>
+            <button class="container__botao"><a href="/nav/sabiamais.html">Saiba mais</a></button>
         </div>
         <div class="container__foto">
             <img src="img/colegioAryQuadraPNG.png" alt="">
         </div>
     </div>
-    <!---------------JS Swiper------------------------>
-<section class="carrosel">    
-    <h2 class="carrosel__titulo"><a href="/nav/sabiamais.html">Conheça Mais</a></h2>
-    <div class="carrosel__container">
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="img/foto1.svg" alt=""></div>
-        <div class="swiper-slide"><img src="img/foto2.svg" alt=""></div>
-        <div class="swiper-slide"><img src="img/foto3.svg" alt=""></div>
-        <div class="swiper-slide"><img src="img/foto4.svg" alt=""></div>       
-        ...
-        </div>
-            
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>     
-    </div>
-</section>
 <!-------------------------Cards--------------------------->
 <section class="card">
     <div class="card__descricao">
@@ -154,29 +130,6 @@
 </section>
 </main>
         <!----------------------------Script SwiperJS----------------------------------->
-        <script src="https://kit.fontawesome.com/460aab3018.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 2,                 
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
-              type: 'bullets',
-            },
-          
-            // Navigation arrows
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          
-            // And if we need scrollbar
-            scrollbar: {
-              el: '.swiper-scrollbar',
-            },
-          });
-        </script>
+        <script src="https://kit.fontawesome.com/460aab3018.js" crossorigin="anonymous"></script>        
 </body>
 </html>

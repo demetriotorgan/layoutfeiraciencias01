@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #e3e9f7;
+    background: #e3e9f7;      
 }
 
 header{
@@ -89,6 +89,17 @@ nav ul li a.active{
     text-align: center;
 }
 
+.container__desktop{
+    display: block;
+    color: red;
+    width: 100%;
+    margin: 3em auto;
+    padding: 1em 5em;
+    text-align: center;
+    border:1px solid #000;
+    border-radius: 5px;    
+}
+
 .container__foto img{
     width: 30em;
     border-radius: 5px;
@@ -97,7 +108,7 @@ nav ul li a.active{
     
 }
 
-.container__botao{
+ .container__botao{
     margin: 2em 2em;    
     width: 80%;
     background-color:#675cff;
@@ -106,8 +117,12 @@ nav ul li a.active{
     padding: 1em;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+    transition: 0.4s;    
+}
+
+.container__botao:hover{
+    width: 83%;
 }
 
 .carrosel{
