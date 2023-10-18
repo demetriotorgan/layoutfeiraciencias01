@@ -125,11 +125,11 @@ nav ul li a.active{
     width: 83%;
 }
 
-.carrosel{
+.card{
     display: none;
 }
 
-.card{
+.botao__saibamais{
     display: none;
 }
 
@@ -187,11 +187,7 @@ nav ul li a.active{
     .hamburger{
         display: block;
     }
-
-    .carrosel{
-        display: block;
-    }
-
+    
     .card{
         display: block  ;
     }
@@ -199,4 +195,28 @@ nav ul li a.active{
     .azul{
         color: #02428a;       
     }
+
+    .botao__saibamais{
+        display: block;
+        background-color: #02428a;
+        text-align: center;
+        margin: 1em 1em;
+        color: #FFF;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+    .botao__saibamais a{
+        color: #FFF;
+    }
+
+    a:visited{
+        color:unset;
+    }
+
+    .botao__saibamais:active{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    
 }
