@@ -17,6 +17,10 @@ body{
     font-family: var(--font-family);
 }
 
+a:visited{
+    color: var(--cor-primaria);
+}
+
 @media screen and (min-width:1024px){
     header{
         display: flex;
