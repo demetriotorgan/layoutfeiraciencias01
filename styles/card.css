@@ -1,5 +1,5 @@
 .card{
-    background: var(--branco);
+    background: var(--bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 3em 2em;
@@ -14,11 +14,11 @@
 }
 
 .descricao__titulo{
-    color: #f76e05;
+    color: var(--cor-primaria);
     font-weight: 700;
 }
 .descricao__sala{
-    color: #02428a;
+    color: var(--cor-primaria);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
@@ -41,9 +41,16 @@
 .botao__saibaMais{    
     width: 90%;
     font-size: 16px;
-    background: #0881f2;
-    border: none;
-    color: #FFF;
+    background: var(--cor-secundaria);
+    border: none;    
     padding: 0.3em 0;
     border-radius: 15px;
+    color: var(--bg-color);
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.botao__saibaMais a{
+    text-decoration: none;
 }

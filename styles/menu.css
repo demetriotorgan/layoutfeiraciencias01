@@ -1,0 +1,121 @@
+header{
+    width: 70%;
+    height: 70px;
+    background: var(--cor-terciaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+i.fa-solid.fa-flask::before{
+    font-size: 25px;
+    color: var(--cor-secundaria);
+}
+.logo__titulo{
+    display: block;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.logo__titulo h5{
+    font-weight: 700;    
+}
+
+nav {
+    position: absolute;
+    left: -300px;
+    top: 0;
+    z-index: 999;
+    width: 280px;
+    height: 100vh;
+    background: var(--bg-color);
+    transition: 0.3s;
+    box-shadow: 2px 0 20px 0 rgba(0,0,0,0.05);
+}
+
+#nav_check:checked ~ nav{
+    left: 0;
+}
+
+nav ul{
+    display: block;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    margin-bottom: 5px;
+    padding: 10px 15;
+    border-radius: 5px;
+    color: #212526;
+    display: block;
+    margin: 0 2px;
+    font-weight: 600;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+nav ul li a.active{
+    background:var(--cor-terciaria);
+    color:var(--cor-primaria);
+}
+
+
+nav .logo{
+    display: block;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: var(--cor-terciaria);
+}
+
+
+.hamburger{
+    display: block;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 5px 0;
+    background: var(--cor-primaria);
+}
+
+.botao__saibamais{
+    display: block;
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    margin: 1em 1em;
+    color: var(--cor-primaria);
+    font-weight: 700;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.botao__saibamais a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:unset;
+}
+
+.botao__saibamais:active{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
