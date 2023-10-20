@@ -9,6 +9,7 @@
 .card__descricao{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.5em;
 
 }
@@ -17,6 +18,11 @@
     color: var(--cor-primaria);
     font-weight: 700;
 }
+
+.card__estrelinhas{
+    width: 50%;
+}
+
 .descricao__sala{
     color: var(--cor-primaria);
     font-size: 18px;
@@ -30,8 +36,9 @@
     line-height: 1.5em;
 }
 
-.descricao__imagem{
-    width:40%;
+.descricao__imagem{    
+    width:50%;
+    height: 30%;
 }
 
 .botao{
