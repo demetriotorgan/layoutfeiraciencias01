@@ -1,0 +1,99 @@
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center ;
+    width: 100%;
+        
+}
+
+.card__conteudo{
+    background: var(--bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;    
+    margin: 2em;
+}
+
+.title{
+    color: var(--cor-primaria);
+    margin: 1em 1em;
+    font-weight: 700;
+}
+.topCard{
+    margin: 1em 1em;
+}
+
+.mediaCard__1FD{
+    background: url("/img/1FDKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2FD{
+    background: url("/img/2FDKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__3FD{
+    background: url("/img/3FDJaneteKarmem.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__6A{
+    background: url("/img/6AKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.topCard title{
+    padding: 10px;
+    padding-top:0px;    
+    
+}
+
+.secodText{
+    color:var(--cor-terciaria);
+}
+
+.bottomText{
+    color:var(--cor-terciaria);
+}
+
+.bottonCard{
+    padding: 0;
+}
+
+.actionCards{
+    display: flex;
+    justify-content: center;
+}
+
+.bottonCard{
+    text-align: center;    
+    font-size: 15px;
+}
+
+.bottomText{
+    margin: 0.5em;
+}
+
+.actions{    
+    background-color:var(--cor-terciaria);
+    border: none;
+    color: var(--bg-color);
+    border-radius: 8px;
+    width: 70%;
+    height: 40px;
+    margin: 1em 0;
+}
+
+.actions:active{
+    background-color: rgb(43, 76, 243);
+}
