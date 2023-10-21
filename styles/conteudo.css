@@ -31,7 +31,7 @@
     margin-top: 1em;
 }
 
-.mediaCard__2FD{
+.mediaCard__2FDFoto{
     background: url("/img/2FDKarina.jpg") center/cover;
     height: 200px;
     width: 100%;
@@ -47,6 +47,132 @@
 
 .mediaCard__6A{
     background: url("/img/6AKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__7A{
+    background: url("/img/escorpioes.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__7A2{
+    background: url("/img/escorpioes2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2Ae2B{
+    background: url("/img/plantas1.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2Ae2B2{
+    background: url("/img/plantas2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__1C{
+    background: url("/img/descobertaDNA.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__1C2{
+    background: url("/img/descobertaDNA2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2FD{
+    background: url("/img/lixoEletronico.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2FD2{
+    background: url("/img/lixoEletronico2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2FDPost{
+    background: url("/img/lixoEletronicoCard.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__6A1{
+    background: url("/img/VulcaoEsquema.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__6A2{
+    background: url("/img/VulcaoDeCima.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__3Ae3B{
+    background: url("/img/DNAestrutura.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__3Ae3B2{
+    background: url("/img/DNAestrutura2.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__3FD1{
+    background: url("/img/contacaoHistoria.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__3FD2{
+    background: url("/img/contacaoHistoria2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__escola1{
+    background: url("/img/ColegioAry1.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__escola2{
+    background: url("/img/colegioAry2.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2TDS{
+    background: url("/img/turmaPNG.png") center/cover;
     height: 200px;
     width: 100%;
     margin-top: 1em;
@@ -94,6 +220,10 @@
     margin: 1em 0;
 }
 
-.actions:active{
-    background-color: rgb(43, 76, 243);
+.actions a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: unset;
 }
