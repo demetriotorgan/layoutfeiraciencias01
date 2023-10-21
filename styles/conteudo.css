@@ -94,6 +94,13 @@
     margin-top: 1em;
 }
 
+.mediaCard__2FDfoto{
+    background: url("/img/2FDKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
 .mediaCard__2FD{
     background: url("/img/lixoEletronico.jpg") center/cover;
     height: 200px;
