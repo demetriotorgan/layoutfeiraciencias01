@@ -185,6 +185,28 @@
     margin-top: 1em;
 }
 
+.mediaCard__tuan{
+    background: url("/img/Tauan.jpg") center/cover;
+    height: 440px;
+    width: 100%;
+    margin-top: 1em;
+    
+}
+
+.mediaCard__carol{
+    background: url("/img/Carol.jpg") center/cover;
+    height: 440px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__miguel{
+    background: url("/img/Miguel.jpg") center/cover;
+    height: 440px;
+    width: 100%;
+    margin-top: 1em;
+}
+
 .topCard title{
     padding: 10px;
     padding-top:0px;    
@@ -233,4 +255,22 @@
 
 a:visited{
     color: unset;
+}
+
+.barra_icones{
+    max-width: 100%;
+    /*background: red;*/
+    box-sizing: border-box;
+    border: 0;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    
+    
+}
+
+.icones{
+    width: 15%;
+    margin: 0 1em;
+    border: 1px solid #000;
 }
