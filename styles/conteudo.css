@@ -165,25 +165,54 @@
 }
 
 .mediaCard__escola1{
-    background: url("/img/ColegioAry1.png") center/cover;
+    background: url("/img/ColegioAry1.jpg") center/cover;
     height: 200px;
     width: 100%;
     margin-top: 1em;
 }
 
 .mediaCard__escola2{
-    background: url("/img/colegioAry2.png") center/cover;
+    background: url("/img/colegioAry2.jpg") center/cover;
     height: 200px;
     width: 100%;
     margin-top: 1em;
 }
 
 .mediaCard__2TDS{
-    background: url("/img/turmaPNG.png") center/cover;
+    background: url("/img/2TDS.jpg") center/cover;
     height: 200px;
     width: 100%;
     margin-top: 1em;
 }
+
+.mediaCard__2TDS2{
+    background: url("/img/frontEnd.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2TDS3{
+    background: url("/img/html.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2TDS4{
+    background: url("/img/css.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2TDS5{
+    background: url("/img/javascript.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
 
 .mediaCard__tuan{
     background: url("/img/Tauan.jpg") center/cover;
@@ -213,6 +242,115 @@
     width: 100%;
     margin-top: 1em;
 }
+
+.mediaCard__demetrio{
+    background: url("/img/demtrio.jpg") center/cover;
+    height: 440px;
+    width: 100%;
+    margin-top: 1em;
+    
+}
+
+
+.mediaCard__tangram3FD{
+    background: url("/img/tangram3FD.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__7ano{
+    background: url("/img/7anoKarina.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__2B{
+    background: url("/img/2BEricson.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__showDaQuimica{
+    background: url("/img/showDaQuimica.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__enchendoBalao{
+    background: url("/img/enchendoBalao.JPG") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__serpenteFarao{
+    background: url("/img/serpenteFarao.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+.mediaCard__violeta{
+    background: url("/img/violeta.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__varinhaMagica{
+    background: url("/img/varinhaMagica.png") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__Matarugo{
+    background: url("/img/Matarugo.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__4FD{
+    background: url("/img/4FD.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__4FD2{
+    background: url("/img/4FD2.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__4FD3{
+    background: url("/img/4FD3.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__oficinaHistoria{
+    background: url("/img/historia.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mediaCard__clubXadrez{
+    background: url("/img/Djaci.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 1em;
+}
+
 
 .topCard title{
     padding: 10px;

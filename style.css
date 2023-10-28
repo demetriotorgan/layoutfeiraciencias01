@@ -1,6 +1,7 @@
 @import url(/styles/menu.css);
 @import url(/styles/card.css);
 @import url(/styles/conteudo.css);
+@import url(/styles/carrosel.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
 
 
@@ -22,6 +23,11 @@ a:visited{
     color: var(--cor-primaria);
 }
 
+/*----------Desktop------------*/
+.telaGrande{
+    display: none;
+}
+
 @media screen and (min-width:1024px){
     header{
         display: flex;
@@ -32,6 +38,10 @@ a:visited{
     .logo__titulo{
         margin: 0 auto;
     }
+    .carrosel{
+        display: none;
+    }
+
     .botao__saibamais{
         display: none;
     }
@@ -41,4 +51,52 @@ a:visited{
     .hamburger{
         display: none;
     }
+
+    .telaGrande{
+        display: flex;
+        margin: 5% auto;    
+        width: 70%;
+        justify-content: space-around;
+        
+        
+    }
+
+    .container__descricao{
+        text-align:center;
+    }
+
+    .container__descricao h1{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .container__botao{
+        margin: 2em 2em;    
+        width: 80%;
+        background-color: var(--cor-secundaria);
+        color: #FFF;
+        border: none;
+        padding: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+        transition: 0.4s;    
+    }
+
+    .container__botao a{
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: var(--cor-primaria);
+        text-decoration: none;
+    }
+
+    .container__foto img{
+        width: 25em;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }  
+    
 }
